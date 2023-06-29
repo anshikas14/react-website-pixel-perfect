@@ -9,7 +9,7 @@
 .services,
 .products,
 .sign-up {
-  display: flex;
+  display:inline-flex;
   height: 90vh;
   align-items: center;
   justify-content: center;
