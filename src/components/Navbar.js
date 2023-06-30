@@ -28,13 +28,15 @@ function Navbar() {
    <>
     <nav className="navbar">
         <div className="navbar-container">
-        
+        <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+            WREC | NITJ
+          </Link>
             <div className="menu-icon" onClick={handleClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars' } />
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 <li className="nav-item">
-                    <Link to='/home' className='nav-links' onClick={closeMobileMenu}>
+                    <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                     <i class="fa-sharp fa-solid fa-house"></i>
                     </Link>
                 </li>
@@ -48,21 +50,7 @@ function Navbar() {
                     <i class="fa-sharp fa-solid fa-users-line"></i>&nbsp;Committee
                     </Link>
                 </li>
-                <li className="nav-item">
-                    <Link to='/sponsors' className='nav-links' onClick={closeMobileMenu}>
-                    <i class="fa-solid fa-indian-rupee-sign"></i>&nbsp;Sponsors
-                    </Link>
-                </li>
-                <li className="nav-item">
-                    <Link to='/awards' className='nav-links' onClick={closeMobileMenu}>
-                    <i class="fa-sharp fa-solid fa-award"></i>&nbsp;Awards
-                    </Link>
-                </li>
-                <li className="nav-item">
-                    <Link to='/registration' className='nav-links' onClick={closeMobileMenu}>
-                    <i class="fa-sharp fa-solid fa-id-card"></i>&nbsp;Registration
-                    </Link>
-                </li>
+
                 <li className="nav-item">
                     <Link to='/contact-us' className='nav-links' onClick={closeMobileMenu}>
                     <i class="fa-sharp fa-solid fa-phone"></i>&nbsp; Contact Us

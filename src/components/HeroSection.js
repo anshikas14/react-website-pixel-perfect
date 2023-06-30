@@ -6,7 +6,9 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='C:\Users\verma\react-website-yt-1\public\videos\video-1.mp4' autoPlay loop muted />
+      <video  autoPlay loop muted>
+      <source src="C:\Users\verma\react-website-yt-1\public\videos\video-1.mp4" type="video/mp4"/>
+      </video>
       <h1>ADVENTURE AWAITS</h1>
       <p>What are you waiting for?</p>
       <div className='hero-btns'>
