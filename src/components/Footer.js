@@ -30,10 +30,8 @@ function Footer() {
           <div class='footer-link-items'>
             <h2>About Us</h2>
             <Link to='/sign-up'>About NITJ</Link>
-            <Link to='/'>Testimonials</Link>
             <Link to='/'>Awards</Link>
             <Link to='/'>Sponsors</Link>
-            <Link to='/'>Terms of Service</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
@@ -45,9 +43,9 @@ function Footer() {
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
+            <h2>Speakers</h2>
+            <Link to='/'>Keynote Speakers</Link>
+            <Link to='/'>Speakers for Tutorials</Link>
             <Link to='/'>Agency</Link>
             <Link to='/'>Influencer</Link>
           </div>
@@ -68,7 +66,7 @@ function Footer() {
               <i class='fab fa-typo3' />
             </Link>
           </div>
-          <small class='website-rights'>TRVL © 2020</small>
+          <small class='website-rights'>WREC|NITJ © 2023</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
