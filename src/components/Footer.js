@@ -8,20 +8,20 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+          Send us a message
         </p>
         <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
+          We will respond to your queries soon.
         </p>
         <div className='input-areas'>
           <form>
             <input
               className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Your Email'
+              name='message'
+              type='message'
+              placeholder='Your Message'
             />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+            <Button buttonStyle='btn--outline'>Send Message</Button>
           </form>
         </div>
       </section>
