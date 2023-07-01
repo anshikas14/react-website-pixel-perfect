@@ -40,17 +40,6 @@ function Footer() {
             <Link to='/'>Industry panel sessions</Link>
           </div>
         </div>
-        <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
-            <h2>Speakers</h2>
-            <Link to='/'>Keynote Speakers</Link>
-            <Link to='/'>Speakers for Tutorials</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
-          </div>
-    
-    
-        </div>
       </div>
       <section class='social-media'>
         <div class='social-media-wrap'>
