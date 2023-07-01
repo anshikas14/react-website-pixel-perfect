@@ -32,7 +32,7 @@ video {
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
-    color: #FFF;
+    color:#088395;
     text-align: center;
     font-size: 1.375rem;
     font-family: 'Jost';
@@ -44,7 +44,7 @@ video {
   
   .hero-container > p {
     margin-top: 8px;
-    color: #fff;
+    color: #088395;
     font-size: 32px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
@@ -71,7 +71,7 @@ video {
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
-    color: #FFF;
+    color: #fff;
     text-align: center;
     font-size: 2.375rem;
     font-family: 'Jost';
