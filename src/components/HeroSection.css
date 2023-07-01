@@ -11,7 +11,7 @@ video {
     background: url('C:\Users\verma\react-website-yt-1\public\images\nitj3-fotor-2023.jpg') center center/cover no-repeat;
     background-blend-mode: luminosity;
     backdrop-filter: blur(2px);
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     font-size: 2.375rem;
     display: flex;
@@ -28,7 +28,7 @@ video {
     margin-right: 30px ;
     display: flex;
     width: 80rem;
-    height: 33.8125rem;
+    height: 31.8125rem;
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
