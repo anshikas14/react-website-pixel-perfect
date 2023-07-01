@@ -8,20 +8,20 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+          Send us a message
         </p>
         <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
+          We will respond to your queries soon.
         </p>
         <div className='input-areas'>
           <form>
             <input
               className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Your Email'
+              name='message'
+              type='message'
+              placeholder='Your Message'
             />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+            <Button buttonStyle='btn--outline'>Send Message</Button>
           </form>
         </div>
       </section>
@@ -29,10 +29,10 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
+            <Link to='/sign-up'>About NITJ</Link>
             <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
+            <Link to='/'>Awards</Link>
+            <Link to='/'>Sponsors</Link>
             <Link to='/'>Terms of Service</Link>
           </div>
           <div class='footer-link-items'>
