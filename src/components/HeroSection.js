@@ -9,8 +9,11 @@ function HeroSection() {
       <video  autoPlay loop muted>
       <source src="C:\Users\verma\react-website-yt-1\public\videos\video-1.mp4" type="video/mp4"/>
       </video>
-      <h1>WOMEN RESEARCHERS IN ELECTRONICS AND COMPUTING</h1>
-      <p>What are you waiting for?</p>
+      <h4 id='heading'>2nd International Conference<br/><br/>
+      <b>WOMEN RESEARCHERS IN ELECTRONICS AND COMPUTING<br/>&#40;April 21-23, 2023&#41;</b> 
+      <br/><br/>Department of Electronics and Communication Engineering<br/>Dr. B.R. Ambedkar National Institute of Technology Jalandhar<br/> Punjab, INDIA</h4>
+
+   
       <div className='hero-btns'>
         <Button
           className='btns'
