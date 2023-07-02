@@ -8,12 +8,15 @@ import {
 } from "react-router-dom";
 import { Link } from 'react-router-dom';
 
+
 import Committee from './components/pages/Committee';
+import Services from './components/pages/Services';
 import Speakers from './components/pages/speakers';
 import SignUp from './components/pages/SignUp';
 import Home from './components/pages/Home';
 
 const pixel = () => {
+const anshika = () => {
   return(
     <>
       <header>
@@ -47,6 +50,7 @@ function App() {
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path='/Committee' element={<Committee />} />
+        <Route path='/services' element={<Services />} />
         <Route path='/speakers' element={<Speakers />} />
         <Route path='/sign-up' element={<SignUp />} />
       </Routes>
