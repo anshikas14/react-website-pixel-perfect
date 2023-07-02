@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../App.css';
+import './speakers.css';
 
 export default function Speakers() {
   return <h1 className='speakers'>KEYNOTE SPEAKERS</h1>;
